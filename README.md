@@ -103,6 +103,8 @@ session optional pam_mkhomedir.so skel=/etc/skel umask=077
 ```commandline
 root@client:~# su - nhadie
 Creating directory '/home/nhadie  '.
+nhadie@client:~$ pwd
+/home/nhadie
 nhadie@client:~$ id
 uid=8000(nhadie) gid=8000(nhadie) groups=8000(nhadie)
 ```
